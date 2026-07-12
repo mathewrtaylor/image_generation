@@ -2,6 +2,18 @@ Prompt Translator
 
 There are many prompts that add things that detract from the actual image generation. I use this to reduce the componnents to a more structured approach.
 
+Used in everyday usage (see repo README), not the one-time Character
+Identity Setup — run this on its own, once per new scene idea, in
+whatever session you're generating images. Feed it a raw prompt however
+messy ("a tired detective smoking in the rain, noir style"); it strips
+out the main character's physical description, replaces them with
+`{{LOCKED_IDENTITY}}`, and returns the scene as structured plain text.
+
+Take that structured output and paste it into your reusable
+Identity_Injection_Engine.md prompt as the normalized scene description —
+that's what actually injects this character's locked identity into the
+scene before you send anything to the image model.
+
 ```
 CRITICAL SYSTEM DIRECTIVE: DO NOT USE IMAGE GENERATION TOOLS. 
 

@@ -2,6 +2,21 @@ The Main Prompt:
 
 **NB** Use the Identity Lock Generator output in the: **Identity Fidelity Requirements** section.
 
+Step 3 of the Character Identity Setup (see repo README) — this is the
+reusable prompt the whole pipeline builds toward. Paste the full output
+of Identity_Lock_Generator.md into the `# Identity Fidelity Requirements`
+section below, replacing the placeholder line. Once filled in, save this
+whole prompt as a reusable prompt in your image tool, with the three
+Character Reference Sheets from Character_Board.md attached in its
+knowledge/reference section — that pairing (images + this text) is what
+makes it reusable across sessions without re-uploading anything.
+
+For everyday use, this prompt's third input — the "normalized scene
+description" containing `{{LOCKED_IDENTITY}}` — comes from running your
+scene idea through Prompt_Treanslator.md first. Paste that translator
+output in as the scene description each time you want a new image of
+this character.
+
 ```
 # Identity Injection Engine
 

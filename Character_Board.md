@@ -1,5 +1,20 @@
 Character Board sheet
 
+Step 1 of the Character Identity Setup (see repo README). Upload as many
+reference photos of the person as your image orchestrator allows, then run
+all three prompts below in the same session. Each prompt reuses those
+uploaded photos, not the sheet a previous prompt produced. The three
+resulting sheets together form the "Identity Model" — attach all three to
+Identity_Lock_Generator.md in the next (new) session.
+
+The neutral grey attire, flat studio lighting, and plain background are
+intentional across all three sheets: they remove clothing, lighting, and
+setting as variables so the only thing downstream prompts have to lock
+onto is the person's actual face and body.
+
+Run in this order — turnaround first establishes build and proportions,
+portraits add facial detail, expressions round out how the face moves:
+
 Full Body Turnaround
 ```
 CHARACTER REFERENCE — SHEET 1 OF 3: FULL-BODY TURNAROUND
@@ -33,7 +48,8 @@ empty background. No text, labels, logos, or watermarks within the panel
 area.
 ```
 
-Head Portraits
+Head Portraits — close-up detail on the face itself (ears, jawline,
+hairline) that the turnaround sheet is too far back to capture.
 ```
 CHARACTER REFERENCE — SHEET 2 OF 3: HEAD PORTRAITS
 
@@ -66,7 +82,8 @@ empty background. No text, labels, logos, or watermarks within the panel
 area.
 ```
 
-Expression Range
+Expression Range — shows how this specific face deforms under emotion, so
+later prompts can render feeling without drifting into a generic face.
 ```
 CHARACTER REFERENCE — SHEET 3 OF 3: EXPRESSION RANGE
 

@@ -1,5 +1,16 @@
 Using this for identity lock, to ensure the character's identity is preserved.
 
+Step 2 of the Character Identity Setup (see repo README). Run this in a
+new session — attach the three Character Reference Sheets produced by
+Character_Board.md (Full-Body Turnaround, Head Portraits, Expression
+Range) and nothing else. This prompt does not generate images; it reads
+those sheets and writes the "Identity Fidelity Requirements" document,
+the written codification of the Identity Model.
+
+Take the full output of this prompt into a new session and paste it into
+the `# Identity Fidelity Requirements` placeholder section of
+Identity_Injection_Engine.md — that assembles the final reusable prompt.
+
 ```
 # Identity Lock Generator
 
