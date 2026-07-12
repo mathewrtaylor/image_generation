@@ -3,9 +3,9 @@
 Prompts for keeping a consistent character identity across image generations, plus reusable scene prompts that plug into that identity.
 
 ## Use
-So often, something in the prompt or the atatched image that causes the output to miss the mark. This repo is an attempt at causing a repeatable system for consistency and accuracy in your Image Prompts by creating an animation style Character Board or Model Sheet, and geenrating rules for how those images are used. While there is some setup required for this, this is a one time activity.
+So often, something in the prompt or the attached image that causes the output to miss the mark. This repo is an attempt at causing a repeatable system for consistency and accuracy in your Image Prompts by creating an animation style Character Board or Model Sheet, and generating rules for how those images are used. While there is some setup required for this, this is a one time activity.
 
-Once this has been done, you can use the translator to strip out non-essential componnents of a prompt, and structure into a repeatable manner for you to use.
+Once this has been done, you can use the translator to strip out non-essential components of a prompt, and structure into a repeatable manner for you to use.
 
 ## Layout
 

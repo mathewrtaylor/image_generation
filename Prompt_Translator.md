@@ -1,6 +1,6 @@
 Prompt Translator
 
-There are many prompts that add things that detract from the actual image generation. I use this to reduce the componnents to a more structured approach.
+There are many prompts that add things that detract from the actual image generation. I use this to reduce the components to a more structured approach.
 
 Used in everyday usage (see repo README), not the one-time Character
 Identity Setup — run this on its own, once per new scene idea, in
