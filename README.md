@@ -12,7 +12,7 @@ Once this has been done, you can use the translator to strip out non-essential c
 The repo is organized around:
 - **`Setup/`** (below) — a one-time, multi-session pipeline that locks in
   one person's appearance so it can be reproduced in any scene.
-- **`Prompt_Treanslator.md`** (root) — an everyday-use utility, run per
+- **`Prompt_Translator.md`** (root) — an everyday-use utility, run per
   scene rather than as part of the one-time setup, so it lives outside
   `Setup/`.
 - **`Prompts/`** (planned) — individual scene prompts, each its own markdown
@@ -25,7 +25,7 @@ The repo is organized around:
 | `Setup/Character_Board.md` | Three prompts that turn uploaded reference photos into three Character Reference Sheets (Full-Body Turnaround, Head Portraits, Expression Range) — together these form the "Identity Model". |
 | `Setup/Identity_Lock_Generator.md` | Analyzes the three Character Reference Sheets and writes an "Identity Fidelity Requirements" document describing the person's locked, non-negotiable features. |
 | `Setup/Identity_Injection_Engine.md` | The reusable prompt. Takes the Identity Fidelity Requirements + the three reference sheets + a normalized scene description, and merges them into one final image-generation prompt. |
-| `Prompt_Treanslator.md` | Strips a raw scene idea down to a normalized, structured prompt with the main character replaced by the `{{LOCKED_IDENTITY}}` placeholder, ready to feed into the Identity Injection Engine. |
+| `Prompt_Translator.md` | Strips a raw scene idea down to a normalized, structured prompt with the main character replaced by the `{{LOCKED_IDENTITY}}` placeholder, ready to feed into the Identity Injection Engine. |
 
 ## Character Identity Setup
 
@@ -57,7 +57,7 @@ in its own session keeps the model focused on just that task):
 
 Once the reusable Identity Injection Engine exists (Session 3 above):
 
-1. Take any ad-hoc scene idea and run it through `Prompt_Treanslator.md`
+1. Take any ad-hoc scene idea and run it through `Prompt_Translator.md`
    first. It normalizes the prompt into structured plain text with the
    main character replaced by `{{LOCKED_IDENTITY}}`.
 2. Copy that normalized output into the reusable Identity Injection Engine

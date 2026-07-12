@@ -13,7 +13,7 @@ makes it reusable across sessions without re-uploading anything.
 
 For everyday use, this prompt's third input — the "normalized scene
 description" containing `{{LOCKED_IDENTITY}}` — comes from running your
-scene idea through the repo-root Prompt_Treanslator.md first. Paste that translator
+scene idea through the repo-root Prompt_Translator.md first. Paste that translator
 output in as the scene description each time you want a new image of
 this character.
 
