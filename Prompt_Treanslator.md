@@ -10,7 +10,7 @@ out the main character's physical description, replaces them with
 `{{LOCKED_IDENTITY}}`, and returns the scene as structured plain text.
 
 Take that structured output and paste it into your reusable
-Identity_Injection_Engine.md prompt as the normalized scene description —
+Setup/Identity_Injection_Engine.md prompt as the normalized scene description —
 that's what actually injects this character's locked identity into the
 scene before you send anything to the image model.
 
