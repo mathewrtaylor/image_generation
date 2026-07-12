@@ -1,4 +1,4 @@
-# image_generation
+# consistent_character_image_generation
 
 Prompts for keeping a consistent character identity across image
 generations, plus reusable scene prompts that plug into that identity.
